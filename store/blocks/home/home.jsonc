@@ -1,0 +1,91 @@
+{
+  "store.home": { 
+    "blocks": ["list-context.image-list#slider", "flex-layout.row#shelf", "info-card#home", "newsletter"]
+  },
+  "list-context.image-list#slider":{
+    "children": ["slider-layout#slider-config", "flex-layout.row#deals"],
+    "props": {
+      "height": 480,
+      "images": [
+        {
+          "image": "https://marbedi.vteximg.com.br/arquivos/bn-vino-rosa.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg",
+          "link":{
+            "url": "/",
+            "title": "INICIO"
+          }
+        },
+        {
+          "image": "https://marbedi.vteximg.com.br/arquivos/bn-vino-blanco-y-vino-tinto-vino-de-uvas.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg",
+          "link":{
+            "url": "/",
+            "title": "INICIO"
+          }
+        },
+        {
+          "image": "https://marbedi.vteximg.com.br/arquivos/bn-dos-copas-vino-tinto.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg",
+          "link":{
+            "url": "/",
+            "title": "INICIO"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-config":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": false,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "carousel",
+      "autoplay": {
+        "timeout": 4400,
+        "stopOnHover": true
+      }
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#productos1"],
+    "props":{
+      "marginBottom":5,
+      "marginTop":5
+    }
+  },
+  "list-context.product-list#productos1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout"],
+    "props": {
+      "category":"3",
+      "orderBy": "OrderByReleaseDateDESC",
+      "hideUnavailableItems": true,
+      "maxItems": 20,
+      "skusFilter": "ALL_AVAILABLE"
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": true,
+      "height": 220
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://marbedi.vteximg.com.br/arquivos/copa-servida-de-vino-espumoso.jpg",
+      "headline": "Clearance Sale",
+      "callToActionText": "¡LO QUIERO!",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  }
+}

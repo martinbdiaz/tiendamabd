@@ -1,0 +1,168 @@
+{
+    "flex-layout.row#3":{
+        "children":["flex-layout.col#drawerDesk", "flex-layout.col#logo-desktop", "flex-layout.col#search-bar","flex-layout.col#login","flex-layout.col#minicart"],
+        "props":{
+            "blockClass":"main-header",
+            "horizontalAlign":"center"
+        }
+    },
+    "flex-layout.col#drawerDesk":{
+      "children":["drawer#desk"],
+      "props":{
+        "verticalAlign": "middle",
+        "width":"10%"
+      }
+    },
+    "drawer#desk": {
+      "children": ["menu#drawerDesk"],
+      "props":{
+        "blockClass": "menuDesk",
+        "maxWidth": 200
+      }
+    },
+    "menu#drawerDesk": {
+      "children": [
+        "menu-item#menu-item1", 
+        "menu-item#menu-item2", 
+        "menu-item#menu-item3", 
+        "menu-item#menu-item4", 
+        "menu-item#menu-item5", 
+        "menu-item#menu-item6", 
+        "menu-item#menu-item7"
+      ],
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "menuDeskItem"
+      }
+    },
+    "menu-item#menu-item1":{
+        "props": {
+          "type": "category",
+          "itemProps": {
+            "categoryId":"1"
+          },
+          "iconProps": {
+            "id": "bnd-logo"
+          }
+        }
+    },
+    "menu-item#menu-item2":{
+        "props": {
+          "type": "category",
+          "itemProps": {
+            "categoryId":"2"
+          },
+          "iconProps": {
+            "id": "bnd-logo"
+          }
+        }
+    },
+    "menu-item#menu-item3":{
+        "props": {
+          "type": "category",
+          "itemProps": {
+            "categoryId":"3"
+          },
+          "iconProps": {
+            "id": "bnd-logo"
+          }
+        }
+    },
+    "menu-item#menu-item4":{
+      "props": {
+        "type": "category",
+        "itemProps": {
+          "categoryId":"4"
+        },
+        "iconProps": {
+          "id": "bnd-logo"
+        }
+      }
+    },
+    "menu-item#menu-item5":{
+        "props": {
+          "type": "category",
+          "itemProps": {
+            "categoryId":"5"
+          },
+          "iconProps": {
+            "id": "bnd-logo"
+          }
+        }
+    },
+    "menu-item#menu-item6":{
+      "props": {
+        "type": "category",
+        "itemProps": {
+          "categoryId":"6"
+        },
+        "iconProps": {
+          "id": "bnd-logo"
+        }
+      }
+    },
+    "menu-item#menu-item7":{
+        "props": {
+          "type": "category",
+          "itemProps": {
+            "categoryId":"7"
+          },
+          "iconProps": {
+            "id": "bnd-logo"
+          }
+        }
+    },
+    "flex-layout.col#logo-desktop":{
+      "children":["logo#desktop"],
+      "props":{
+        "horizontalAlign":"center",
+        "verticalAlign": "middle"
+      }
+    },
+    "logo#desktop":{
+        "props":{
+            "title":"Logo",
+            "href": "/",
+            "url": "https://storecomponents.vtexassets.com/arquivos/store-theme-logo.png",
+            "width": "180"
+        }
+    },
+    "flex-layout.col#search-bar":{
+        "children":["search-bar"],
+        "props":{
+            "horizontalAlign":"center",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#login":{
+      "children":["login"],
+      "props":{
+          "horizontalAlign":"center",
+          "verticalAlign": "middle",
+          "width": "15%"
+      }
+    },
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "INICIO DE SESIÓN",
+            "accessCodeTitle": "Iniciar Sesión",
+            "emailPraceholder": "Correo Electrónico",
+            "passwordPlaceholder": "Contraseña",
+            "showPasswordVerificationIntoTooltip": true
+        }
+    },
+    "flex-layout.col#minicart":{
+        "children":["minicart.v2"],
+        "props":{
+            "horizontalAlign":"center",
+            "verticalAlign": "middle",
+            "width": "15%"
+        }
+    },
+    "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "openAutocompleteOnFocus": true
+        }
+    }
+}

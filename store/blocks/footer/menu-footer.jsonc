@@ -1,0 +1,199 @@
+{
+    "vtex.menu@2.x:menu#Products": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": ["menu-item#lo-nuevo","menu-item#blackfriday","menu-item#sale","menu-item#personalization"]
+    },
+    "menu-item#lo-nuevo": {
+      "props": {
+        "id": "menu-item-lo-nuevo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "",
+          "text": "LO NUEVO!"
+        }
+      }
+    },
+    "menu-item#blackfriday": {
+      "props": {
+        "id": "menu-item-black-friday",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "BlackFriday",
+          "text": "Black Friday"
+        }
+      }
+    },
+    "menu-item#sale": {
+      "props": {
+        "id": "menu-item-sale",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Sale",
+          "text": "Sale"
+        }
+      }
+    },
+    "menu-item#personalization": {
+      "props": {
+        "id": "menu-item-personalization",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Personalization",
+          "text": "Personalization"
+        }
+      }
+    },
+    "vtex.menu@2.x:menu#footer-category": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "menu-item#cat-1",
+        "menu-item#cat-2",
+        "menu-item#cat-3",
+        "menu-item#cat-4",
+        "menu-item#cat-5",
+        "menu-item#cat-6",
+        "menu-item#cat-7"
+      ]
+    },
+    "vtex.menu@2.x:menu#footer-ayuda": {
+      "children": ["menu-item#pedido","menu-item#como-comprar","menu-item#preguntas"],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+    "menu-item#pedido": {
+      "props": {
+        "id": "menu-item-pedido",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "¿Dónde está mi pedido?"
+        }
+      }
+    },
+    "menu-item#como-comprar": {
+      "props": {
+        "id": "menu-item-como-comprar",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "¿Cómo Comprar?"
+        }
+      }
+    },
+    "menu-item#preguntas": {
+      "props": {
+        "id": "menu-item-tvs",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Preguntas Frecuentes"
+        }
+      }
+    },
+    "vtex.menu@2.x:menu#footer-empresa": {
+      "children": ["menu-item#quienes-somos","menu-item#politicas","menu-item#terminos","menu-item#devoluciones"],
+      "props": {
+        "orientation": "vertical"
+      }
+    },
+    "menu-item#quienes-somos": {
+      "props": {
+        "id": "menu-item-quienes-somos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "¿Quiénes somos?"
+        }
+      }
+    },
+    "menu-item#politicas": {
+      "props": {
+        "id": "menu-item-politicas",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Nuestras Políticas"
+        }
+      }
+    },
+    "menu-item#terminos": {
+      "props": {
+        "id": "menu-item-terminos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Términos y condiciones"
+        }
+      }
+    },
+    "menu-item#devoluciones": {
+      "props": {
+        "id": "menu-item-devoluciones",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "",
+          "text": "Devoluciones"
+        }
+      }
+    }
+}

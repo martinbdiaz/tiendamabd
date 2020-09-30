@@ -1,0 +1,87 @@
+{
+    "flex-layout.row#2":{
+        "children":["flex-layout.col#topleft", "header-spacer", "flex-layout.col#topright"]
+    },
+    "flex-layout.col#topleft":{
+      "children":["vtex.menu@2.x:menu#topleft"],
+      "props":{
+        "horizontalAlign":"left"
+      }
+    },
+    "vtex.menu@2.x:menu#topleft": {
+      "children": ["menu-item#1", "menu-item#2"]
+    },
+    "menu-item#1":{
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "tel:+573168232057",
+          "noFollow": false,
+          "tagTitle": "Llamar",
+          "text": "+57 316 823 2057"
+        },
+        "iconProps": {
+          "id": "hpa-telemarketing"
+        }
+      }
+    },
+    "menu-item#2":{
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "mailto:martinbdiaz@gmail.com",
+          "noFollow": false,
+          "tagTitle": "Envíar correo electrónico",
+          "text": "martinbdiaz@gmail.com"
+        },
+        "iconProps": {
+          "id": "hpa-profile"
+        }
+      }
+    },
+    "flex-layout.col#topright":{
+      "children":["vtex.menu@2.x:menu#topright"],
+      "props":{
+        "horizontalAlign":"right"
+      }
+    },
+    "vtex.menu@2.x:menu#topright": {
+      "children": ["menu-item#3","menu-item#4"]
+    },
+    "menu-item#3":{
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/tiendas",
+          "noFollow": false,
+          "tagTitle": "Tiendas",
+          "text": "Ubicación Tiendas"
+        },
+        "iconProps": {
+          "id": "mpa-store"
+        }
+      }
+    },
+    "menu-item#4":{
+      "props": {
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/rastrear-pedido",
+          "noFollow": false,
+          "tagTitle": "Rastrea tu pedido",
+          "text": "Rastrea tu pedido"
+        },
+        "iconProps": {
+          "id": "mpa-globe"
+        }
+      }
+    }
+}

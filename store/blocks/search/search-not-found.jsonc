@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#notfound":{
+    "children": ["not-found"],
+    "props": {
+      "fullWidth": true
+    }
+  },  
+  "rich-text#text-not-found-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lo sentimos, el producto que elegiste no está disponible. ¿Quieres conocer otras opciones?",
+      "textColor": "c-on-base",
+      "font": "t-heading-5"
+    }
+  },
+  "rich-text#text-not-found-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "QUIZÁS TE INTERESE",
+      "textColor": "c-on-base",
+      "font": "t-heading-4"
+    }
+  },
+  "list-context.product-list#recomendados-not-found": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout"],
+    "props":{
+      "category":"3",
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+    "sticky-layout#mob": {
+        "children": ["flex-layout.row#mob"]
+      },
+      "flex-layout.row#mob": {
+        "children": [
+          "flex-layout.col#drawerMob",
+          "flex-layout.col#logoMob",
+          "flex-layout.col#minicartMob"
+        ],
+        "props": {
+          "blockClass": "main-header-mobile",
+          "preventHorizontalStretch": false,
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true
+        }
+      },
+      "flex-layout.col#drawerMob":{
+        "children":["drawer"],
+        "props":{
+          "verticalAlign": "middle"
+        }
+      },
+      "drawer": {
+        "children": ["menu#drawer"]
+      },
+      "menu#drawer": {
+        "children": [
+          "flex-layout.col#search-bar",
+          "login#mob",
+          "header-border",
+          "menu-item#menu-item1", 
+          "menu-item#menu-item2", 
+          "menu-item#menu-item3", 
+          "menu-item#menu-item4", 
+          "menu-item#menu-item5", 
+          "menu-item#menu-item6", 
+          "menu-item#menu-item7",
+          "header-border",
+          "menu-item#1", 
+          "menu-item#2", 
+          "menu-item#3"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+      },
+      "login#mob": {
+          "props": {
+              "emailAndPasswordTitle": "INICIO DE SESIÓN",
+              "accessCodeTitle": "Iniciar Sesión",
+              "emailPraceholder": "Correo Electrónico",
+              "passwordPlaceholder": "Contraseña",
+              "showPasswordVerificationIntoTooltip": true
+          }
+      },
+      "flex-layout.col#logoMob":{
+        "children":["logo#mobile"],
+        "props":{
+          "verticalAlign": "middle",
+          "width": "70%",
+          "horizontalAlign": "center"
+        }
+      },
+      "logo#mobile": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+          "width": "70"
+        }
+      },
+      "flex-layout.col#minicartMob":{
+        "children":["minicart.v2"],
+        "props":{
+          "verticalAlign": "middle"
+        }
+      }
+}

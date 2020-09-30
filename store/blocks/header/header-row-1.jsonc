@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#1":{
+        "children":["notification.bar"],
+        "props":{
+          "fullWidth":"true"
+        }
+    },
+    "notification.bar":{
+        "props":{
+        "content": "¡APROVECHA HOY DE NUESTRAS OFERTAS EXCLUSIVAS!"
+        }
+    }
+}

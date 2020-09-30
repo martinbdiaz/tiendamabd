@@ -1,0 +1,146 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer-1-desktop","flex-layout.row#footer-2-desktop","flex-layout.row#footer-3-desktop"]
+  },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-category",
+      "vtex.menu@2.x:menu#footer-ayuda",
+      "vtex.menu@2.x:menu#footer-empresa",
+      "footer-spacer",
+      "social-networks"],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 8,
+      "paddingBottom": 3
+    }
+  },  
+  "menu-item#cat-1": {
+    "props": {
+      "id": "menu-item-footer-category",
+      "type": "category",
+      "highlight": false,
+      "itemProps": {
+        "categoryId": "1"
+      }
+    }
+  },
+  "menu-item#cat-2": {
+    "props": {
+      "id": "menu-item-footer-category",
+      "type": "category",
+      "highlight": false,
+      "itemProps": {
+        "categoryId": "2"
+      }
+    }
+  },
+  "menu-item#cat-3": {
+    "props": {
+      "id": "menu-item-footer-category",
+      "type": "category",
+      "highlight": false,
+      "itemProps": {
+        "categoryId": "3"
+      }
+    }
+  },
+  "menu-item#cat-4": {
+    "props": {
+      "id": "menu-item-footer-category",
+      "type": "category",
+      "highlight": false,
+      "itemProps": {
+        "categoryId": "4"
+      }
+    }
+  },
+  "menu-item#cat-5": {
+    "props": {
+      "id": "menu-item-footer-category",
+      "type": "category",
+      "highlight": false,
+      "itemProps": {
+        "categoryId": "5"
+      }
+    }
+  },
+  "menu-item#cat-6": {
+    "props": {
+      "id": "menu-item-footer-category",
+      "type": "category",
+      "highlight": false,
+      "itemProps": {
+        "categoryId": "6"
+      }
+    }
+  },
+  "menu-item#cat-7": {
+    "props": {
+      "id": "menu-item-footer-category",
+      "type": "category",
+      "highlight": false,
+      "itemProps": {
+        "categoryId": "7"
+      }
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        },
+        {
+          "name": "pinterest",
+          "url": "https://www.youtube.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"],
+      "showInColor": true
+    }
+  },
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "Todos los derechos reservados. COPYRIGHT © 2020",
+      "blockClass": "footer"
+    }
+  }
+}
