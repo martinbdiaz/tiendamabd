@@ -34,7 +34,7 @@
         "children":["flex-layout.col#product-content"]
     },
     "flex-layout.col#product-content":{
-        "children":["flex-layout.row#product-content-1","flex-layout.row#product-content-2"]
+        "children":["flex-layout.row#product-content-1","flex-layout.row#product-content-2","search-products-progress-bar"]
     },
     "flex-layout.row#product-content-1":{
         "children":["search-content"]

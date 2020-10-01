@@ -1,6 +1,15 @@
 {
-    "store.custom#about-us":{
-        "path": "/about-use"
+    "store.custom#about-us": {
+        "path": "/about-us"
+    },
+    "store.custom#preguntas-frecuentes":{
+        "path": "/preguntas-frecuentes"
+    },
+    "store.custom#preguntas-frecuentes-envios":{
+        "path": "/preguntas-frecuentes/envios"
+    },
+    "store.custom#preguntas-frecuentes-pagos":{
+        "path": "/preguntas-frecuentes/pagos"
     },
     "store.custom#sale":{
         "path": "/sale"

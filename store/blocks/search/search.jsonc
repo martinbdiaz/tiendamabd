@@ -3,7 +3,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "maxItemsPerPage": 24,
+        "maxItemsPerPage": 16,
         "hideUnavailableItems": true,
         "facetsBehavior": "dinamyc",
         "skusFilter": "ALL_AVAILABLE",
@@ -18,9 +18,6 @@
   "search-result-layout.desktop":{
     "children": [
       "flex-layout.row#breadcrumb",
-      "search-products-count-per-page",
-      "search-products-progress-bar",
-      "total-products.v2",
       "flex-layout.row#search-title",
       "flex-layout.row#content"
     ],
@@ -36,19 +33,16 @@
   },
   "search-result-layout.mobile":{
     "children": [
-        "breadcrumb.search",
-        "search-title.v2",
-        "total-products.v2",
-        "filter-navigator.v3",
-        "sidebar-close-button",
-        "order-by.v2",
-        "search-fetch-more",
-        "search-fetch-previous",
-        "search-products-count-per-page",
-        "search-content",
-        "search-products-progress-bar"
+      "breadcrumb.search",
+      "search-title.v2",
+      "total-products.v2",
+      "flex-layout.row#filtrosMob",
+      "search-fetch-previous",
+      "flex-layout.row#product-content-mob",
+      "search-fetch-more",
+      "search-products-progress-bar"
     ]
-  }, 
+  },
   "search-not-found-layout":{
     "children":["flex-layout.row#breadcrumb", "flex-layout.row#notfound","rich-text#text-not-found-1", "rich-text#text-not-found-2", "list-context.product-list#recomendados-not-found"]
   }

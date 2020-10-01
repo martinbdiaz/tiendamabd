@@ -1,0 +1,7 @@
+.flexCol--col-header-mob{
+    background-color: white;
+    border-bottom: 2px solid rgb(0 0 0 / 6%);
+}
+.flexCol--filtrosMobile{
+    font-size: 12px!important;
+}

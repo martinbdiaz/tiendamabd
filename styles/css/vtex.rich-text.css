@@ -1,0 +1,14 @@
+.paragraph--questionItem{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0 10px;
+    border-radius: 10px;
+    cursor: pointer
+}
+.paragraph--questionItemActive{
+    border-left: 2px solid #dd0a0a;
+    border-right: 2px solid #dd0a0a;
+    padding: 0 10px;
+    border-radius: 10px;
+    color: #dd0a0a
+}

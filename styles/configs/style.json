@@ -326,9 +326,10 @@
       "heading-1": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "700",
-        "fontSize": "3rem",
+        "fontSize": "2.5rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "textAlign": "center"
       },
       "heading-2": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
@@ -396,7 +397,7 @@
       "action--small": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "500",
-        "fontSize": "0.875rem",
+        "fontSize": "12px",
         "textTransform": "uppercase",
         "letterSpacing": "0"
       },

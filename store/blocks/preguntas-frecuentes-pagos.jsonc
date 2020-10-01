@@ -1,0 +1,69 @@
+{
+    "store.custom#preguntas-frecuentes-pagos":{
+        "blocks":["rich-text#preguntas-title","flex-layout.row#itemPreguntas","flex-layout.row#pagos"]
+    },
+    "rich-text#preguntas-title":{  
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**PREGUNTAS FRECUENTES**",
+            "font": "t-heading-5",
+            "blockClass": "help-message"
+        }
+    },
+    "flex-layout.row#itemPreguntas":{
+        "children":["flex-layout.col#miCuenta","flex-layout.col#envios","flex-layout.col#pagos"],
+        "props":{
+          "preventVerticalStretch":true
+        }
+    },
+    "flex-layout.col#miCuenta":{
+        "children":["rich-text#miCuenta"]
+    },
+    "rich-text#miCuenta":{   
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[Mi Cuenta](/preguntas-frecuentes)",
+            "font": "t-heading-5",
+            "blockClass": "questionItem"
+        }
+    },
+    "flex-layout.col#envios":{
+        "children":["rich-text#envios"]
+    },
+    "rich-text#envios":{   
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[Envios](/preguntas-frecuentes-envios)",
+            "font": "t-heading-5",
+            "blockClass": "questionItem"
+        }
+    },
+    "flex-layout.col#pagos":{
+        "children":["rich-text#pagos"]
+    },
+    "rich-text#pagos":{   
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Pagos",
+            "font": "t-heading-5",
+            "blockClass": "questionItemActive"
+        }
+    },
+    "flex-layout.row#pagos":{
+        "children":["flex-layout.col#pagos-q"]
+    },
+    "flex-layout.col#pagos-q":{
+        "children":["rich-text#pagos-q1"]
+    },
+    "rich-text#pagos-q1":{
+        "props": {
+            "text": "**PAGOS**\n\n Te ofrecemos diferentes opciones de pago Tarjeta crédito: Mastercard, Visa, Amex, Diners, Banco de occidente Transferencia bancaria (Bancolombia) \n\n Si deseas realizar la cancelación de tu compra puedes hacerlo de acuerdo con el derecho de retracto consagrado por la ley 1480 art. 47, el término máximo para ejercer este derecho es de 5 días hábiles contados a partir de la entrega del producto Para ejercer el derecho de retracto debes: \n\n Enviarnos la solicitud a nuestros canales de servicio al cliente dentro de los 5 primeros días hábiles, contados a partir de la entrega del producto. (Según registro de la transportadora) Debes hacernos llegar el producto en las mismas condiciones que lo recibiste, con etiquetas completas y en perfecto estado. (Los costos de transporte serán asumidos por el cliente) \n\n Marca 100% colombiana.",
+            "font": "t-heading-5",
+            "blockClass": "help-message"
+        }
+    } 
+}

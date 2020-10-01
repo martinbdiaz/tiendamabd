@@ -1,0 +1,9 @@
+.galleryItem--productosMobile{
+    width: 50%;
+    flex-basis:50%!important;
+    color: white;
+    padding: 0;
+}
+.galleryTitle--layout{
+    text-align: center;
+}

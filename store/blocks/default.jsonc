@@ -40,9 +40,10 @@
       "product-summary-name",
       "product-summary-price",
       "product-identifier.summary",
+      "add-to-cart-button"/*
       "product-summary-buy-button",
       "product-list-price",
-      "product-selling-price"
+      "product-selling-price"*/
     ]
   },
   "breadcrumb": {

@@ -1,0 +1,83 @@
+{
+    "store.custom#preguntas-frecuentes":{
+        "blocks":["rich-text#preguntas-title","flex-layout.row#itemPreguntas","flex-layout.row#miCuenta"/*,"flex-layout.row#envios","flex-layout.row#pagos"*/]
+    },
+    "rich-text#preguntas-title":{  
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "**PREGUNTAS FRECUENTES**",
+            "font": "t-heading-5",
+            "blockClass": "help-message"
+        }
+    },
+    "flex-layout.row#itemPreguntas":{
+        "children":["flex-layout.col#miCuenta","flex-layout.col#envios","flex-layout.col#pagos"],
+        "props":{
+          "preventVerticalStretch":true
+        }
+    },
+    "flex-layout.col#miCuenta":{
+        "children":["rich-text#miCuenta"]
+    },
+    "rich-text#miCuenta":{   
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Mi Cuenta",
+            "font": "t-heading-5",
+            "blockClass": "questionItemActive"
+        }
+    },
+    "flex-layout.col#envios":{
+        "children":["rich-text#envios"]
+    },
+    "rich-text#envios":{   
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[Envios](/preguntas-frecuentes-envios)",
+            "font": "t-heading-5",
+            "blockClass": "questionItem"
+        }
+    },
+    "flex-layout.col#pagos":{
+        "children":["rich-text#pagos"]
+    },
+    "rich-text#pagos":{   
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "[Pagos](/preguntas-frecuentes-pagos)",
+            "font": "t-heading-5",
+            "blockClass": "questionItem"
+        }
+    },
+    "flex-layout.row#miCuenta":{
+        "children":["flex-layout.col#miCuenta-q"]
+    },
+    "flex-layout.col#miCuenta-q":{
+        "children":["rich-text#miCuenta-q1","rich-text#miCuenta-q2","rich-text#miCuenta-q3"]
+    },
+    "rich-text#miCuenta-q1":{
+        "props": {
+            "text": "**¿Tengo que registrarme para comprar algo en la tienda online?**\n Registrarse no es necesario. Puedes realizar un pedido en la tienda online como invitado, pero, si planeas hacer compras de manera regular, te recomendamos registrarte ya que te ahorrará tiempo cuando vuelvas a hacer un pedido en nuestra tienda online.os",
+            "font": "t-heading-5",
+            "blockClass": "help-message"
+        }
+    },
+    "rich-text#miCuenta-q2":{
+        "props": {
+            "text": "**Añadir un artículo a favoritos** \nAcompaña la opción que elegiste agregando un producto más al carrito, hazlo de forma fácil, rápida y asegúrate de llevarte todo lo que necesitas.",
+            "font": "t-heading-5",
+            "blockClass": "help-message"
+        }
+    },
+    "rich-text#miCuenta-q3":{
+        "props": {
+            "text": "**Cambiar mis datos** \nNo dejes que tu compra se retrase o no llegue, mantén tus datos actualizados y haz del proceso de compra algo rápido y seguro, del resto nos encargamos nosotros. Ingresa cuando quieras y cambia los datos que consideres importantes en tu cuenta. Inicia sesión en la parte superior derecha, ingresando donde dice **ENTRAR**.",
+            "font": "t-heading-5",
+            "blockClass": "help-message"
+        }
+    }
+}

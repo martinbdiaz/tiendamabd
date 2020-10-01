@@ -1,3 +1,37 @@
 {
-   
+    "flex-layout.row#filtrosMob":{
+    "children":["flex-layout.col#filtroMob","flex-layout.col#ordenMob"],
+        "props":{
+            "preserveLayoutOnMobile":true,
+            "border":["top","bottom"],
+            "blockClass":"filtrosMobile"
+        }
+    },
+    "flex-layout.col#filtroMob":{
+        "children":["filter-navigator.v3"],
+        "props":{
+            "verticalAlign":"middle",
+            "border":"right",
+            "blockClass":"filtrosMobile"
+        }
+    }, 
+    "flex-layout.col#ordenMob":{
+        "children":["order-by.v2"],
+        "props":{
+            "verticalAlign":"middle",
+            "blockClass":"filtrosMobile"
+        }
+    },
+    "flex-layout.row#product-content-mob":{
+        "children":["search-content#mob"]
+    },
+    "search-content#mob":{
+        "blocks": ["gallery#mob", "not-found"]
+    },
+    "gallery#mob":{
+        "blocks":["product-summary.shelf"],
+        "props":{
+            "blockClass":"productosMobile"
+        }
+    }
 }

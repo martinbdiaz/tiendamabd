@@ -32,7 +32,7 @@
     ]
   },
   "flex-layout.row#comprar":{
-    "children":["product-quantity", "buy-button"]
+    "children":["product-quantity", "add-to-cart-button"]
   },
   "flex-layout.row#relatedProducts":{
     "children":["shelf.relatedProducts"],
